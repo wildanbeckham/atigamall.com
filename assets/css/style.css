@@ -53,11 +53,19 @@ nav .nav-link.active {
   -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+#navbar .search.scrolled {
+  border: 1px solid #000 !important;
+}
 /* Navbar */
 
 /* Landing Page - Hero */
+#hero .carousel {
+  height: 100vh;
+}
+
 #hero .carousel img {
-  height: 40rem;
+  height: 100vh;
   width: 100%;
   filter: brightness(20%);
   object-fit: cover;
@@ -212,7 +220,7 @@ nav .nav-link.active {
 
 @media only screen and (max-width: 991px) {
   #testimoni img {
-    height: 40rem;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
   }
@@ -224,6 +232,12 @@ nav .nav-link.active {
 }
 
 @media only screen and (max-width: 750px) {
+  /* Navbar */
+  #navbar .navb {
+    margin: 0 !important;
+  }
+  /* Navbar */
+
   /* Landing Page Navbar */
   #navbar {
     background-color: #fbfbfb;
