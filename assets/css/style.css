@@ -56,12 +56,8 @@ nav .nav-link.active {
 /* Navbar */
 
 /* Landing Page - Hero */
-#hero .carousel {
-  height: 100vh;
-}
-
 #hero .carousel img {
-  height: 100vh;
+  height: 40rem;
   width: 100%;
   filter: brightness(20%);
   object-fit: cover;
@@ -216,7 +212,7 @@ nav .nav-link.active {
 
 @media only screen and (max-width: 991px) {
   #testimoni img {
-    height: 100vh;
+    height: 40rem;
     width: 100%;
     object-fit: cover;
   }
